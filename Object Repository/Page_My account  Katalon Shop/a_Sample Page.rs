@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_My account</name>
+   <name>a_Sample Page</name>
    <tag></tag>
-   <elementGuidId>2ab15da9-edde-44ae-9393-18ad2d86396e</elementGuidId>
+   <elementGuidId>4e45d653-4211-4f38-bdd9-664d39a2c2e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='primary-menu']/ul/li[3]/a</value>
+         <value>//div[@id='primary-menu']/ul/li[4]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li.page_item.page-item-10.focus > a</value>
+         <value>li.page_item.page-item-2.focus > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,110 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>762c6f6c-1185-4101-98c9-27302ebbb9b5</webElementGuid>
+      <webElementGuid>9ec09bf6-a3b9-4a91-9ad2-ae0ee549f6e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://cms.demo.katalon.com/my-account/</value>
-      <webElementGuid>b5fb7c92-eda7-4840-a3ae-c69641c97feb</webElementGuid>
+      <value>https://cms.demo.katalon.com/sample-page/</value>
+      <webElementGuid>fed76c10-51ae-45b5-a71f-d5d44ddc70a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>My account</value>
-      <webElementGuid>dd05f587-0bdb-4d6d-8c4d-1172f40b5710</webElementGuid>
+      <value>Sample Page</value>
+      <webElementGuid>75f29779-cddc-4c78-a5fe-c743339486a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;primary-menu&quot;)/ul[@class=&quot;nav-menu&quot;]/li[@class=&quot;page_item page-item-10 focus&quot;]/a[1]</value>
-      <webElementGuid>cd54c672-7243-424c-80b8-0dcd731e4fa1</webElementGuid>
+      <value>id(&quot;primary-menu&quot;)/ul[@class=&quot;nav-menu&quot;]/li[@class=&quot;page_item page-item-2 focus&quot;]/a[1]</value>
+      <webElementGuid>298c31f5-69e0-4b8f-b873-e3fb98a7f132</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='primary-menu']/ul/li[3]/a</value>
-      <webElementGuid>105284e0-835d-4695-bcab-47548d33a7c7</webElementGuid>
+      <value>//div[@id='primary-menu']/ul/li[4]/a</value>
+      <webElementGuid>dd893db6-a3a5-4abe-ad93-cc1b6c8e5531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'My account')]</value>
-      <webElementGuid>ef4a18fd-aedf-46c0-bf54-c63f7fda094b</webElementGuid>
+      <value>//a[contains(text(),'Sample Page')]</value>
+      <webElementGuid>7b46260f-cde8-4572-be89-2d3462e9405b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::a[1]</value>
-      <webElementGuid>1d8853ce-69ec-40ee-a4cb-bb7a30217647</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[1]/following::a[1]</value>
+      <webElementGuid>c2b4ffa4-82e9-4ae5-9eaa-1d46c7066941</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[2]</value>
-      <webElementGuid>eef95ab1-cda1-4989-bd8f-96412d65557b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::a[2]</value>
+      <webElementGuid>f2da4f9d-a200-4067-930f-4bcfbc095ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample Page'])[1]/preceding::a[1]</value>
-      <webElementGuid>6bab87ba-732d-482d-8d3f-6444b7a1ae42</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/preceding::a[1]</value>
+      <webElementGuid>47e52ea6-2d0a-48d1-94e9-4b23c6e1cf92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/preceding::a[2]</value>
-      <webElementGuid>28f2d8ec-6635-4704-b20f-0ca36026eb0f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[2]</value>
+      <webElementGuid>8e1ad23c-48f4-467a-831f-643abffa7cd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='My account']/parent::*</value>
-      <webElementGuid>bba20796-80dd-4e21-906d-a40d7906b9a3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Sample Page']/parent::*</value>
+      <webElementGuid>90898f1c-d2fb-4512-af36-a11f7c0e26b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://cms.demo.katalon.com/my-account/')]</value>
-      <webElementGuid>4b782c44-afed-4480-b0aa-b01a06f704e1</webElementGuid>
+      <value>//a[contains(@href, 'https://cms.demo.katalon.com/sample-page/')]</value>
+      <webElementGuid>c0fdc1bc-0531-484a-a4e5-eee00dff0db5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
-      <webElementGuid>ca4d937b-1f22-4a23-8247-675a40ac9933</webElementGuid>
+      <value>//li[4]/a</value>
+      <webElementGuid>54dd612d-0b00-497d-a40d-6127916df7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://cms.demo.katalon.com/my-account/' and (text() = 'My account' or . = 'My account')]</value>
-      <webElementGuid>066b9ff5-1096-4831-9995-e45e21c6d249</webElementGuid>
+      <value>//a[@href = 'https://cms.demo.katalon.com/sample-page/' and (text() = 'Sample Page' or . = 'Sample Page')]</value>
+      <webElementGuid>e57ebc68-016e-42f4-902c-2ab4bc4b8e70</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

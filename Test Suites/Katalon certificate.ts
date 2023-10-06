@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Testing cases</name>
+   <name>Katalon certificate</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,33 +10,40 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>8cba51c9-388b-4bce-a647-40a5ac4f9b56</testSuiteGuid>
+   <testSuiteGuid>2e6a5548-7073-4132-b4a6-49b3dba3f53b</testSuiteGuid>
    <testCaseLink>
-      <guid>ec5b8eb5-2b49-49bc-ba16-ff9a7d71d466</guid>
+      <guid>3ce8e4ac-f60c-49ca-8fb3-bb4e9823770a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Login Cases/1 Positive Login</testCaseId>
+      <testCaseId>Test Cases/Test cases for getting katalon degree/test case 1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>54f17a25-4065-4c82-998f-40a275b5e2e7</guid>
+      <guid>8d2338fc-d13a-4e08-9276-5a9c05960dbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Login Cases/1.1 Bad login - only username</testCaseId>
+      <testCaseId>Test Cases/Test cases for getting katalon degree/Test case 2</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>900ce074-9b34-409d-88ac-f1986755de12</guid>
+      <guid>90d4848e-665f-412c-a245-1fe07a0e7cb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Login Cases/1.2 bad login - only password</testCaseId>
+      <testCaseId>Test Cases/Test cases for getting katalon degree/test case 3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5c55b30c-386f-4a47-be7d-7457f2794ea9</guid>
+      <guid>be910d5d-227f-449f-ad6d-7741f31bb8db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1 Login Cases/1.3 bad login - bad credentials</testCaseId>
+      <testCaseId>Test Cases/Test cases for getting katalon degree/test case 4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ca70d1c-3387-40ac-85b9-cb87da8f55d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test cases for getting katalon degree/test case 5</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

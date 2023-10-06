@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Sample Page</name>
+   <tag></tag>
+   <elementGuidId>a3eaf4fe-0826-4822-b58f-416d3dfb4f1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-2']/header/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.entry-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>5f57c801-6e04-48c8-acf9-5f6b89012e14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>entry-title</value>
+      <webElementGuid>8b78b9dd-3b34-487b-a2b2-760e73df2568</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sample Page</value>
+      <webElementGuid>4966237a-ab63-41e9-aa04-8c3737725244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-2&quot;)/header[@class=&quot;entry-header&quot;]/h1[@class=&quot;entry-title&quot;]</value>
+      <webElementGuid>6876a8d1-63e1-43c0-ba8a-5fca5af2ab5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-2']/header/h1</value>
+      <webElementGuid>3838e490-fb0f-4f50-8921-43b9790661fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop'])[1]/following::h1[1]</value>
+      <webElementGuid>a16c4ab9-e9c6-4fc0-a7f0-f8c97e32526e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sample Page'])[1]/following::h1[1]</value>
+      <webElementGuid>9696c543-9df4-42e1-bce4-30751acfa479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='your dashboard'])[1]/preceding::h1[1]</value>
+      <webElementGuid>28975430-8f5c-4919-aaea-b22450c52bae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for:'])[1]/preceding::h1[1]</value>
+      <webElementGuid>cca1d6b1-7a62-4b48-bf8f-96e72a132bcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>a1667c13-b4c8-4f2e-91b1-ba11a1fb395d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Sample Page' or . = 'Sample Page')]</value>
+      <webElementGuid>e2db825c-703f-408a-afee-30ae4dea919a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
