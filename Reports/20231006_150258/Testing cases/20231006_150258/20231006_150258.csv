@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing cases,Chrome 117.0.0.0,,,2023-10-06 15:03:00,2023-10-06 15:03:27,"26,436s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1 Positive Login,Chrome 117.0.0.0,,,2023-10-06 15:03:01,2023-10-06 15:03:10,"9,802s",PASSED
+"openBrowser(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-06 15:03:01,2023-10-06 15:03:05,"4,349s",PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 117.0.0.0,,,2023-10-06 15:03:05,2023-10-06 15:03:05,"0,167s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-06 15:03:05,2023-10-06 15:03:07,"1,378s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__username""), userLogin)",Chrome 117.0.0.0,,,2023-10-06 15:03:07,2023-10-06 15:03:08,"0,799s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__password""), UserPassword)",Chrome 117.0.0.0,,,2023-10-06 15:03:08,2023-10-06 15:03:08,"0,648s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-06 15:03:08,2023-10-06 15:03:10,"1,534s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/p_Hello KatalonLover (not KatalonLover Log out)""), 0)",Chrome 117.0.0.0,,,2023-10-06 15:03:10,2023-10-06 15:03:10,"0,338s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h1_My account""), 0)",Chrome 117.0.0.0,,,2023-10-06 15:03:10,2023-10-06 15:03:10,"0,313s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1.1 Bad login - only username,Chrome 117.0.0.0,,,2023-10-06 15:03:10,2023-10-06 15:03:19,"8,477s",PASSED
+"openBrowser(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-06 15:03:11,2023-10-06 15:03:15,"4,154s",PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 117.0.0.0,,,2023-10-06 15:03:15,2023-10-06 15:03:15,"0,145s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-06 15:03:15,2023-10-06 15:03:16,"1,406s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__username""), ""1"")",Chrome 117.0.0.0,,,2023-10-06 15:03:16,2023-10-06 15:03:17,"0,753s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/div_LoginUsername or email addressPassword _738cd3""))",Chrome 117.0.0.0,,,2023-10-06 15:03:17,2023-10-06 15:03:17,"0,331s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-06 15:03:17,2023-10-06 15:03:18,"1,043s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account  Katalon Shop/li_ERROR The password field is empty""), ""ERROR: The password field is empty."")",Chrome 117.0.0.0,,,2023-10-06 15:03:18,2023-10-06 15:03:19,"0,452s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1.2 bad login - only password,Chrome 117.0.0.0,,,2023-10-06 15:03:19,2023-10-06 15:03:27,"7,962s",PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-10-06 15:03:19,2023-10-06 15:03:21,"2,025s",PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-06 15:03:21,2023-10-06 15:03:23,"2,126s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-06 15:03:23,2023-10-06 15:03:25,"1,480s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__password""), ""HeCM15nHKBI="")",Chrome 117.0.0.0,,,2023-10-06 15:03:25,2023-10-06 15:03:25,"0,401s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-06 15:03:25,2023-10-06 15:03:26,"1,305s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account  Katalon Shop/li_Error Username is required""), ""Error: Username is required."")",Chrome 117.0.0.0,,,2023-10-06 15:03:26,2023-10-06 15:03:27,"0,439s",PASSED

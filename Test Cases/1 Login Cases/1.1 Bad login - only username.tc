@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.1 Bad login - only username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3c694c1-a649-46df-9236-099337f454a4</testCaseGuid>
+</TestCaseEntity>
