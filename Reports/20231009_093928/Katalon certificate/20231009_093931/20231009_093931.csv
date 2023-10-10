@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Katalon certificate,Firefox 118.0,,,2023-10-09 09:39:35,2023-10-09 09:40:48,"1m - 13,871s",PASSED
+,,,,,,,
+Test Cases/Test cases for getting katalon degree/test case 1,Firefox 118.0,,,2023-10-09 09:39:35,2023-10-09 09:39:50,"15,379s",PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-09 09:39:35,2023-10-09 09:39:40,"5,064s",PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Firefox 118.0,,,2023-10-09 09:39:40,2023-10-09 09:39:43,"2,795s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Firefox 118.0,,,2023-10-09 09:39:43,2023-10-09 09:39:44,"1,398s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h2_Recent Posts""), 0)",Firefox 118.0,,,2023-10-09 09:39:44,2023-10-09 09:39:45,"0,412s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Firefox 118.0,,,2023-10-09 09:39:45,2023-10-09 09:39:46,"1,005s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/a_Sample Page""))",Firefox 118.0,,,2023-10-09 09:39:46,2023-10-09 09:39:47,"1,258s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/a_Checkout""))",Firefox 118.0,,,2023-10-09 09:39:47,2023-10-09 09:39:47,"0,603s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985""))",Firefox 118.0,,,2023-10-09 09:39:47,2023-10-09 09:39:48,"0,614s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b""))",Firefox 118.0,,,2023-10-09 09:39:48,2023-10-09 09:39:48,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3""))",Firefox 118.0,,,2023-10-09 09:39:48,2023-10-09 09:39:49,"0,514s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page""), ""Sample Page"")",Firefox 118.0,,,2023-10-09 09:39:49,2023-10-09 09:39:49,"0,310s",PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-09 09:39:49,2023-10-09 09:39:50,"0,833s",PASSED
+,,,,,,,
+Test Cases/Test cases for getting katalon degree/Test case 2,Firefox 118.0,,,2023-10-09 09:39:50,2023-10-09 09:40:03,"13,165s",PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-09 09:39:50,2023-10-09 09:39:53,"3,057s",PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Firefox 118.0,,,2023-10-09 09:39:53,2023-10-09 09:39:56,"2,673s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Firefox 118.0,,,2023-10-09 09:39:56,2023-10-09 09:39:57,"1,309s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h2_Recent Posts""), 0)",Firefox 118.0,,,2023-10-09 09:39:57,2023-10-09 09:39:58,"0,393s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Firefox 118.0,,,2023-10-09 09:39:58,2023-10-09 09:39:59,"0,993s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/a_Sample Page""))",Firefox 118.0,,,2023-10-09 09:39:59,2023-10-09 09:40:00,"1,233s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/a_Checkout""))",Firefox 118.0,,,2023-10-09 09:40:00,2023-10-09 09:40:01,"0,679s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985""))",Firefox 118.0,,,2023-10-09 09:40:01,2023-10-09 09:40:01,"0,632s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b""))",Firefox 118.0,,,2023-10-09 09:40:01,2023-10-09 09:40:02,"0,429s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3""))",Firefox 118.0,,,2023-10-09 09:40:02,2023-10-09 09:40:02,"0,522s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page""), ""Sample Page"")",Firefox 118.0,,,2023-10-09 09:40:02,2023-10-09 09:40:02,"0,293s",PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-09 09:40:02,2023-10-09 09:40:03,"0,889s",PASSED
+,,,,,,,
+Test Cases/Test cases for getting katalon degree/test case 3,Firefox 118.0,,,2023-10-09 09:40:03,2023-10-09 09:40:16,"13,132s",PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-09 09:40:03,2023-10-09 09:40:06,"2,955s",PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Firefox 118.0,,,2023-10-09 09:40:06,2023-10-09 09:40:09,"2,580s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Firefox 118.0,,,2023-10-09 09:40:09,2023-10-09 09:40:10,"1,313s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h2_Recent Posts""), 0)",Firefox 118.0,,,2023-10-09 09:40:10,2023-10-09 09:40:11,"0,378s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Firefox 118.0,,,2023-10-09 09:40:11,2023-10-09 09:40:12,"1,067s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/a_Sample Page""))",Firefox 118.0,,,2023-10-09 09:40:12,2023-10-09 09:40:13,"1,219s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/a_Checkout""))",Firefox 118.0,,,2023-10-09 09:40:13,2023-10-09 09:40:14,"0,694s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985""))",Firefox 118.0,,,2023-10-09 09:40:14,2023-10-09 09:40:14,"0,628s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b""))",Firefox 118.0,,,2023-10-09 09:40:14,2023-10-09 09:40:15,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3""))",Firefox 118.0,,,2023-10-09 09:40:15,2023-10-09 09:40:15,"0,502s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page""), ""Sample Page"")",Firefox 118.0,,,2023-10-09 09:40:15,2023-10-09 09:40:15,"0,299s",PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-09 09:40:15,2023-10-09 09:40:16,"0,994s",PASSED
+,,,,,,,
+Test Cases/Test cases for getting katalon degree/test case 4,Firefox 118.0,,,2023-10-09 09:40:16,2023-10-09 09:40:32,"15,842s",PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-09 09:40:17,2023-10-09 09:40:20,"3,164s",PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Firefox 118.0,,,2023-10-09 09:40:20,2023-10-09 09:40:23,"3,595s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Firefox 118.0,,,2023-10-09 09:40:23,2023-10-09 09:40:26,"2,481s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h2_Recent Posts""), 0)",Firefox 118.0,,,2023-10-09 09:40:26,2023-10-09 09:40:26,"0,389s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Firefox 118.0,,,2023-10-09 09:40:26,2023-10-09 09:40:27,"1,352s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/a_Sample Page""))",Firefox 118.0,,,2023-10-09 09:40:27,2023-10-09 09:40:29,"1,367s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/a_Checkout""))",Firefox 118.0,,,2023-10-09 09:40:29,2023-10-09 09:40:30,"0,696s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985""))",Firefox 118.0,,,2023-10-09 09:40:30,2023-10-09 09:40:30,"0,628s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b""))",Firefox 118.0,,,2023-10-09 09:40:30,2023-10-09 09:40:31,"0,423s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3""))",Firefox 118.0,,,2023-10-09 09:40:31,2023-10-09 09:40:31,"0,517s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page""), ""Sample Page"")",Firefox 118.0,,,2023-10-09 09:40:31,2023-10-09 09:40:31,"0,287s",PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-09 09:40:31,2023-10-09 09:40:32,"0,848s",PASSED
+,,,,,,,
+Test Cases/Test cases for getting katalon degree/test case 5,Firefox 118.0,,,2023-10-09 09:40:32,2023-10-09 09:40:48,"16,201s",PASSED
+"openBrowser("""")",Firefox 118.0,,,2023-10-09 09:40:32,2023-10-09 09:40:35,"2,860s",PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Firefox 118.0,,,2023-10-09 09:40:35,2023-10-09 09:40:41,"5,372s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Firefox 118.0,,,2023-10-09 09:40:41,2023-10-09 09:40:43,"1,958s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h2_Recent Posts""), 0)",Firefox 118.0,,,2023-10-09 09:40:43,2023-10-09 09:40:43,"0,284s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Firefox 118.0,,,2023-10-09 09:40:43,2023-10-09 09:40:44,"1,118s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/a_Sample Page""))",Firefox 118.0,,,2023-10-09 09:40:44,2023-10-09 09:40:45,"1,254s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/a_Checkout""))",Firefox 118.0,,,2023-10-09 09:40:45,2023-10-09 09:40:46,"0,697s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985""))",Firefox 118.0,,,2023-10-09 09:40:46,2023-10-09 09:40:46,"0,629s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b""))",Firefox 118.0,,,2023-10-09 09:40:46,2023-10-09 09:40:47,"0,424s",PASSED
+"click(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3""))",Firefox 118.0,,,2023-10-09 09:40:47,2023-10-09 09:40:47,"0,522s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page""), ""Sample Page"")",Firefox 118.0,,,2023-10-09 09:40:47,2023-10-09 09:40:48,"0,283s",PASSED
+closeBrowser(),Firefox 118.0,,,2023-10-09 09:40:48,2023-10-09 09:40:48,"0,737s",PASSED

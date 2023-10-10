@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Katalon certificate" time="70.966" tests="5" failures="0" errors="0">
+   <testsuite name="Katalon certificate" tests="5" failures="0" errors="0" time="70.966" skipped="0" timestamp="2023-10-09 09:52:38" hostname="leyssm1 - 5CG136D91W.iconos.be" id="Test Suites/Katalon certificate">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leyssm1\\git\\E-commerce\\Reports\\20231009_095229\\Katalon certificate\\20231009_095233"/>
+         <property name="logFiles" value="C:\\Users\\leyssm1\\git\\E-commerce\\Reports\\20231009_095229\\Katalon certificate\\20231009_095233\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leyssm1 - 5CG136D91W.iconos.be"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 118.0"/>
+         <property name="hostAddress" value="192.168.0.24"/>
+         <property name="sessionId" value="cb7f2367-098c-49b0-a823-491afc7c45d8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Test cases for getting katalon degree/test case 1" time="16.253" classname="Test Cases/Test cases for getting katalon degree/test case 1" status="PASSED">
+         <system-out><![CDATA[2023-10-09 09:52:39 - [TEST_CASE][PASSED] - Test Cases/Test cases for getting katalon degree/test case 1: Test Cases/Test cases for getting katalon degree/test case 1
+
+2023-10-09 09:52:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-09 09:52:39 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-09 09:52:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-09 09:52:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-09 09:52:45 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:52:47 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account")): Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:52:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_My account  Katalon Shop/h2_Recent Posts"), 0): Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:52:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-09 09:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/a_Sample Page")): Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:52:52 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/a_Checkout")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:52:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:52:53 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:52:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page"), "Sample Page"): Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:52:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:52:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-09 09:52:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test cases for getting katalon degree/Test case 2" time="13.045" classname="Test Cases/Test cases for getting katalon degree/Test case 2" status="PASSED">
+         <system-out><![CDATA[2023-10-09 09:52:55 - [TEST_CASE][PASSED] - Test Cases/Test cases for getting katalon degree/Test case 2: Test Cases/Test cases for getting katalon degree/Test case 2
+
+2023-10-09 09:52:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-09 09:52:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-09 09:52:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-09 09:52:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-09 09:52:58 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:00 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account")): Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_My account  Katalon Shop/h2_Recent Posts"), 0): Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-09 09:53:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/a_Sample Page")): Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:04 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/a_Checkout")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:06 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page"), "Sample Page"): Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-09 09:53:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test cases for getting katalon degree/test case 3" time="14.019" classname="Test Cases/Test cases for getting katalon degree/test case 3" status="PASSED">
+         <system-out><![CDATA[2023-10-09 09:53:08 - [TEST_CASE][PASSED] - Test Cases/Test cases for getting katalon degree/test case 3: Test Cases/Test cases for getting katalon degree/test case 3
+
+2023-10-09 09:53:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-09 09:53:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-09 09:53:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-09 09:53:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-09 09:53:11 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:14 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account")): Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_My account  Katalon Shop/h2_Recent Posts"), 0): Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-09 09:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/a_Sample Page")): Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:18 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/a_Checkout")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:20 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page"), "Sample Page"): Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-09 09:53:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test cases for getting katalon degree/test case 4" time="13.706" classname="Test Cases/Test cases for getting katalon degree/test case 4" status="PASSED">
+         <system-out><![CDATA[2023-10-09 09:53:22 - [TEST_CASE][PASSED] - Test Cases/Test cases for getting katalon degree/test case 4: Test Cases/Test cases for getting katalon degree/test case 4
+
+2023-10-09 09:53:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-09 09:53:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-09 09:53:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-09 09:53:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-09 09:53:25 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:28 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account")): Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_My account  Katalon Shop/h2_Recent Posts"), 0): Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-09 09:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/a_Sample Page")): Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:32 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/a_Checkout")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:34 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page"), "Sample Page"): Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-09 09:53:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test cases for getting katalon degree/test case 5" time="13.772" classname="Test Cases/Test cases for getting katalon degree/test case 5" status="PASSED">
+         <system-out><![CDATA[2023-10-09 09:53:36 - [TEST_CASE][PASSED] - Test Cases/Test cases for getting katalon degree/test case 5: Test Cases/Test cases for getting katalon degree/test case 5
+
+2023-10-09 09:53:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-09 09:53:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-09 09:53:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-09 09:53:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-09 09:53:39 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:42 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2023-10-09 09:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account")): Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account' is clicked on
+
+2023-10-09 09:53:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_My account  Katalon Shop/h2_Recent Posts"), 0): Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-09 09:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My account  Katalon Shop/h2_Recent Posts' is present
+
+2023-10-09 09:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2023-10-09 09:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My account  Katalon Shop/a_Sample Page")): Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My account  Katalon Shop/a_Sample Page' is clicked on
+
+2023-10-09 09:53:46 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/a_Checkout")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/a_Checkout' is right clicked on
+
+2023-10-09 09:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/blockquote_Hi there Im a bike messenger by _996985' is clicked on
+
+2023-10-09 09:53:47 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_Hi there Im a bike messenger by day, aspi_ed905b' is right clicked on
+
+2023-10-09 09:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3")): Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sample Page  Katalon Shop/p_This is an example page. Its different fr_b854e3' is clicked on
+
+2023-10-09 09:53:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page"), "Sample Page"): Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Sample Page  Katalon Shop/h1_Sample Page' are matched.
+
+2023-10-09 09:53:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-09 09:53:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-09 09:52:38 - [TEST_SUITE][PASSED] - Katalon certificate: Test Cases/Test cases for getting katalon degree/test case 5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing cases,Chrome 117.0.0.0,,,2023-10-09 08:50:28,2023-10-09 08:51:07,"39,109s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1 Positive Login,Chrome 117.0.0.0,,,2023-10-09 08:50:29,2023-10-09 08:50:42,"13,265s",PASSED
+"openBrowser(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-09 08:50:29,2023-10-09 08:50:37,"7,837s",PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 117.0.0.0,,,2023-10-09 08:50:37,2023-10-09 08:50:37,"0,153s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-09 08:50:37,2023-10-09 08:50:38,"1,688s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__username""), userLogin)",Chrome 117.0.0.0,,,2023-10-09 08:50:38,2023-10-09 08:50:39,"0,705s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__password""), UserPassword)",Chrome 117.0.0.0,,,2023-10-09 08:50:39,2023-10-09 08:50:40,"0,657s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-09 08:50:40,2023-10-09 08:50:41,"1,369s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/p_Hello KatalonLover (not KatalonLover Log out)""), 0)",Chrome 117.0.0.0,,,2023-10-09 08:50:41,2023-10-09 08:50:41,"0,326s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_My account  Katalon Shop/h1_My account""), 0)",Chrome 117.0.0.0,,,2023-10-09 08:50:41,2023-10-09 08:50:42,"0,307s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1.1 Bad login - only username,Chrome 117.0.0.0,,,2023-10-09 08:50:42,2023-10-09 08:50:50,"8,465s",PASSED
+"openBrowser(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-09 08:50:42,2023-10-09 08:50:46,"4,374s",PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 117.0.0.0,,,2023-10-09 08:50:46,2023-10-09 08:50:46,"0,127s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-09 08:50:46,2023-10-09 08:50:48,"1,444s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__username""), ""1"")",Chrome 117.0.0.0,,,2023-10-09 08:50:48,2023-10-09 08:50:49,"0,760s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/div_LoginUsername or email addressPassword _738cd3""))",Chrome 117.0.0.0,,,2023-10-09 08:50:49,2023-10-09 08:50:49,"0,326s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-09 08:50:49,2023-10-09 08:50:50,"1,015s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account  Katalon Shop/li_ERROR The password field is empty""), ""ERROR: The password field is empty."")",Chrome 117.0.0.0,,,2023-10-09 08:50:50,2023-10-09 08:50:50,"0,331s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1.2 bad login - only password,Chrome 117.0.0.0,,,2023-10-09 08:50:50,2023-10-09 08:50:59,"8,457s",PASSED
+"openBrowser(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-09 08:50:50,2023-10-09 08:50:55,"4,707s",PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 117.0.0.0,,,2023-10-09 08:50:55,2023-10-09 08:50:55,"0,122s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-09 08:50:55,2023-10-09 08:50:57,"1,343s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__password""), ""HeCM15nHKBI="")",Chrome 117.0.0.0,,,2023-10-09 08:50:57,2023-10-09 08:50:57,"0,431s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-09 08:50:57,2023-10-09 08:50:58,"1,229s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account  Katalon Shop/li_Error Username is required""), ""Error: Username is required."")",Chrome 117.0.0.0,,,2023-10-09 08:50:58,2023-10-09 08:50:59,"0,545s",PASSED
+,,,,,,,
+Test Cases/1 Login Cases/1.3 bad login - bad credentials,Chrome 117.0.0.0,"user: 1
+pw: 1",,2023-10-09 08:50:59,2023-10-09 08:51:07,"8,739s",PASSED
+"openBrowser(""https://cms.demo.katalon.com/"")",Chrome 117.0.0.0,,,2023-10-09 08:50:59,2023-10-09 08:51:03,"4,500s",PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 117.0.0.0,,,2023-10-09 08:51:03,2023-10-09 08:51:03,"0,133s",PASSED
+"click(findTestObject(""Object Repository/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 117.0.0.0,,,2023-10-09 08:51:03,2023-10-09 08:51:05,"1,316s",PASSED
+"setText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__username""), ""1"")",Chrome 117.0.0.0,,,2023-10-09 08:51:05,2023-10-09 08:51:06,"0,747s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_My account  Katalon Shop/input__password""), ""HeCM15nHKBI="")",Chrome 117.0.0.0,,,2023-10-09 08:51:06,2023-10-09 08:51:06,"0,350s",PASSED
+"click(findTestObject(""Object Repository/Page_My account  Katalon Shop/button_Log in""))",Chrome 117.0.0.0,,,2023-10-09 08:51:06,2023-10-09 08:51:07,"1,075s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_My account  Katalon Shop/li_ERROR Invalid username. Lost your password""), ""ERROR: Invalid username. Lost your password?"")",Chrome 117.0.0.0,,,2023-10-09 08:51:07,2023-10-09 08:51:07,"0,532s",PASSED

@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/1 Login Cases/1 Positive Login","testCaseId":"Test Cases/1 Login Cases/1 Positive Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/1 Login Cases/1.1 Bad login - only username","testCaseId":"Test Cases/1 Login Cases/1.1 Bad login - only username","iterationVariableName":""}
+{"testCaseName":"Test Cases/1 Login Cases/1.2 bad login - only password","testCaseId":"Test Cases/1 Login Cases/1.2 bad login - only password","iterationVariableName":""}
+{"testCaseName":"Test Cases/1 Login Cases/1.3 bad login - bad credentials","testCaseId":"Test Cases/1 Login Cases/1.3 bad login - bad credentials","iterationVariableName":""}
