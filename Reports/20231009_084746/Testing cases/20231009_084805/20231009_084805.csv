@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing cases,,,,2023-10-09 08:48:06,2023-10-09 08:48:12,"5,575s",FAILED
+,,,,,,,
+Test Cases/1 Login Cases/1 Positive Login,,,,2023-10-09 08:48:06,2023-10-09 08:48:09,"2,412s",FAILED
+"openBrowser(""https://cms.demo.katalon.com/"")",,,,2023-10-09 08:48:06,2023-10-09 08:48:09,"2,248s",FAILED
+,,,,,,,
+Test Cases/1 Login Cases/1.1 Bad login - only username,,,,2023-10-09 08:48:09,2023-10-09 08:48:10,"1,511s",FAILED
+"openBrowser(""https://cms.demo.katalon.com/"")",,,,2023-10-09 08:48:09,2023-10-09 08:48:10,"1,421s",FAILED
+,,,,,,,
+Test Cases/1 Login Cases/1.2 bad login - only password,,,,2023-10-09 08:48:10,2023-10-09 08:48:12,"1,511s",FAILED
+"openBrowser(""https://cms.demo.katalon.com/"")",,,,2023-10-09 08:48:10,2023-10-09 08:48:12,"1,422s",FAILED
